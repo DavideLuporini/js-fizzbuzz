@@ -10,3 +10,9 @@ console.log('JS OK!');
 // 1) Creo una variabile 
 let result = '';
 const numbers = document.getElementById('list-item');
+
+// 2) ciclo for da 1 a 100
+
+for (let i = 1; i <= 100; i++) {
+
+}
