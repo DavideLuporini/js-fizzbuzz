@@ -9,7 +9,7 @@ console.log('JS OK!');
 
 // 1) Creo una variabile 
 let result = '';
-const numbers = document.getElementById('list');
+let numbers = document.getElementById('list');
 
 // 2) ciclo for da 1 a 100
 
@@ -38,3 +38,9 @@ for (let i = 1; i <= 100; i++) {
         console.log(result)
     }
 }
+
+
+// 4) stampa il risultato in pagina
+
+numbers.innerHTML = result;
+console.log(result);
